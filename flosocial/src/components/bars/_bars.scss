@@ -1,0 +1,94 @@
+.header_bar{
+    background: darkcyan;
+    display: flex;
+    width: 100%;
+    height: 10px;
+    padding: 2rem;
+    align-items: center;
+    .logo{
+        flex: 3;
+        color: white;
+    }
+    .search{
+        flex: 5;
+        background: white;
+        border-radius: 20px;
+        padding: 0.2rem;
+        // text-align: center;
+        .user_search{
+            font-size: 20px !important;
+        }
+        .inputSearch{
+        border: none;
+        width: 80%;
+        text-align: center;
+        margin-left: 15px;
+        outline: none;
+        }
+    }
+    .chat{
+        flex: 4;
+        align-items: center;
+        justify-content: space-evenly;
+        display: flex;
+        .user{
+            text-align: center;
+            i{
+                color: white;
+                position:relative;
+            }
+            span{
+                position: absolute;
+                color: white;
+                border-radius: 100%;
+                width: 20px;
+                height: 20px;
+            
+                top: 20px;
+                background: red;
+            }
+        }
+        .notification{
+            text-align: center;
+            i{
+                color: white;
+                position:relative;
+            }
+            span{
+                position: absolute;
+                color: white;
+                border-radius: 100%;
+                width: 20px;
+                height: 20px;
+            
+                top: 20px;
+                background: red;
+            }
+        }
+        .message{
+            text-align: center;
+            i{
+                color: white;
+                position:relative;
+            }
+            span{
+                position: absolute;
+                color: white;
+                border-radius: 100%;
+                width: 20px;
+                height: 20px;
+            
+                top: 20px;
+                background: red;
+            }
+        }
+        .profile{
+            img{
+                width: 40px;
+                height: 40px;
+                object-fit: cover;
+                border-radius: 100%;
+            }
+        }
+    }
+}
