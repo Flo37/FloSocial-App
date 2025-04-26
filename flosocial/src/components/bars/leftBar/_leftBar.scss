@@ -1,4 +1,87 @@
-.leftBar{
+.leftBr{
     background: white;
-    flex: 5;
+    flex: 2;
+    height: calc(100vh - 64px);
+    // text-align: center;
+    
+    .boxBar{
+        text-align: center;
+        padding: 
+        0.5rem;
+        li{
+
+            margin-top: 20%;
+            transition: .5s ease-in-out;
+            list-style: none;
+            padding: 0.5em;
+            cursor: pointer;
+            &:hover{
+                background: rgb(82, 119, 119);
+                color: white;
+                border-radius: 10px;
+            }
+        }
+        // .feed{
+        //     &:hover{
+        //         background: lightsteelblue;
+
+        //     }
+        // }
+        // .chats{
+        //     &:hover{
+        //         background: lightsteelblue;
+    
+        //     }
+            
+        // }
+        // .video{
+        //     &:hover{
+        //         background: lightsteelblue;
+    
+        //     }
+            
+        // }
+        // .groups{
+        //     &:hover{
+        //         background: lightsteelblue;
+    
+        //     }
+            
+        // }
+        // .bookmarks{
+        //     &:hover{
+        //         background: lightsteelblue;
+    
+        //     }
+            
+        // }
+        // .Questions{
+        //     &:hover{
+        //         background: lightsteelblue;
+    
+        //     }
+            
+        // }
+        // .Jobs{
+        //     &:hover{
+        //         background: lightsteelblue;
+    
+        //     }
+            
+        // }
+        // .Events{
+        //     &:hover{
+        //         background: lightsteelblue;
+    
+        //     }
+            
+        // }.Courses{
+        //     &:hover{
+        //         background: lightsteelblue;
+    
+        //     }
+         
+        // }
+    }
+   
 }

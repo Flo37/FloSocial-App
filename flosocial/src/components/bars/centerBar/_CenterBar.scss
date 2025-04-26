@@ -1,16 +1,27 @@
 .centerBar{
-    flex: 3;
+    flex: 8;
     background: rgba(217, 240, 217, 0.486);
-
-img{
-  width: 20%;
-  background: darkblue;
-  padding: 1rem;
-  border-radius: 100%;
-  object-fit: cover;
-}
-span{
-    color: tomato;
-    text-transform: uppercase;
-}
+    padding: 1rem;
+    .container{
+        // display: flex;
+        // flex-direction: column;
+        margin-top: 10px;
+        img{
+          width: 20%;
+          background: darkblue;
+          padding: 1rem;
+          border-radius: 100%;
+          object-fit: cover;
+          position: relative;
+        }
+        span{
+            position: absolute;
+            color: tomato;
+            text-transform: uppercase;
+            border-radius: 100%;
+            background: lightgreen;
+            padding: 0.5rem;
+            box-shadow: 1px 0 2px red;
+        }
+    }
 }

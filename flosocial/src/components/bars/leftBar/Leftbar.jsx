@@ -2,52 +2,55 @@ import React from 'react';
 
 const Leftbar = () => {
     return (
-        <div className='leftBar'>
-           <div className="feed">
+        <div className='leftBr'>
+            <ul className="boxBar">
+
+           <li className="feed">
            <i class="fa-solid fa-rss"></i>
            <span>Feed</span>
-           </div>
+           </li>
 
-           <div className="chats">
+           <li className="chats">
            <i class="fa-solid fa-message"></i>
             <span>Chats</span>
+           </li>
 
-            <div className="video">
+            <li className="video">
             <i class="fa-solid fa-video"></i>
             <span>video</span>
-            </div>
+            </li>
 
-            <div className="groups">
+            <li className="groups">
             <i class="fa-solid fa-people-group"></i>
             <span>Groups</span>
-            </div>
+            </li>
 
-            <div className="Bookmarks">
+            <li className="bookmarks">
             <i class="fa-solid fa-bookmark"></i>
             <span>Bookmarks</span>
-            </div>
+            </li>
 
-            <div className="Questions">
+            <li className="Questions">
             <i class="fa-solid fa-circle-question"></i>
             <span>Questions?</span>
-            </div>
+            </li>
             
-            <div className="Jobs">
+            <li className="Jobs">
             <i class="fa-solid fa-briefcase"></i>
             <span>Jobs</span>
-            </div>
+            </li>
             
-            <div className="Events">
+            <li className="Events">
             <i class="fa-solid fa-calendar-days"></i>
             <span>Events</span>
-            </div>
+            </li>
             
-            <div className="Courses">
+            <li className="Courses">
             <i class="fa-solid fa-graduation-cap"></i>
             <span>Courses</span>
-            </div>
+            </li>
 
-           </div>
+            </ul>
         </div>
     );
 };
