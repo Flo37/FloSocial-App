@@ -1,3 +1,5 @@
 @import "./settings";
 @import "./Pages/Home/home";
-@import "./components/bars/bars"
+@import "./components/bars/topBar/bars";
+@import "./components/bars/leftBar/leftBar";
+@import "./components/bars/centerBar/CenterBar";

@@ -14,13 +14,17 @@ const Bars = () => {
                 </div>
 
                 <div className="chat">
+                    <div className="navBar">
+                        <h3>Parameter</h3>
+                        <h3>Profile</h3>
+                    </div>
                     <div className="user">
                     <i class="fa-solid fa-user"></i>
                     <span className="user_span">
                         1
                     </span>
                     </div>
-                    
+
                     <div className="notification">
                     <i class="fa-solid fa-square-envelope"></i>
                     <span className="notification_span">
@@ -41,6 +45,7 @@ const Bars = () => {
 
                 </div>
             </div>
+            
         
     );
 };
