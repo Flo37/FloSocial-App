@@ -2,8 +2,7 @@
     background: white;
     flex: 2;
     height: calc(100vh - 64px);
-    // text-align: center;
-    
+    overflow-y: scroll;
     .boxBar{
         text-align: center;
         padding: 
@@ -21,67 +20,31 @@
                 border-radius: 10px;
             }
         }
-        // .feed{
-        //     &:hover{
-        //         background: lightsteelblue;
+    }
+    .buttonfooter {
+        button{
+            width: 100px;
+            margin-left: 20px;
+        }
+        hr{
+            margin: 10px 0;
+        }
+    }
+    .comments{
+        margin-left: 40px;
+        .cont1, .cont2,.cont3{
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            
 
-        //     }
-        // }
-        // .chats{
-        //     &:hover{
-        //         background: lightsteelblue;
-    
-        //     }
-            
-        // }
-        // .video{
-        //     &:hover{
-        //         background: lightsteelblue;
-    
-        //     }
-            
-        // }
-        // .groups{
-        //     &:hover{
-        //         background: lightsteelblue;
-    
-        //     }
-            
-        // }
-        // .bookmarks{
-        //     &:hover{
-        //         background: lightsteelblue;
-    
-        //     }
-            
-        // }
-        // .Questions{
-        //     &:hover{
-        //         background: lightsteelblue;
-    
-        //     }
-            
-        // }
-        // .Jobs{
-        //     &:hover{
-        //         background: lightsteelblue;
-    
-        //     }
-            
-        // }
-        // .Events{
-        //     &:hover{
-        //         background: lightsteelblue;
-    
-        //     }
-            
-        // }.Courses{
-        //     &:hover{
-        //         background: lightsteelblue;
-    
-        //     }
-         
-        // }
+        }
+        img{
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            object-fit: cover;
+        }
     }
    
 }

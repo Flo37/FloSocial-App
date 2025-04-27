@@ -51,6 +51,61 @@ const Leftbar = () => {
             </li>
 
             </ul>
+            <div className="buttonfooter">
+                <button>Comments</button>
+            <hr className='footerhr' />
+            </div>
+            <div className="comments">
+                <div className="cont1">
+                <img src="./Assets/1.jpg" alt="" />
+                <span>Floris</span>
+                </div>
+                <div className="cont2">
+                <img src="./Assets/2.jpg" alt="" />
+                <span>Marcel</span>
+                </div>
+                <div className="cont3">
+                <img src="./Assets/3.jpg" alt="" />
+                <span>John</span>
+                </div>
+                <div className="cont1">
+                <img src="./Assets/1.jpg" alt="" />
+                <span>Floris</span>
+                </div>
+                <div className="cont2">
+                <img src="./Assets/2.jpg" alt="" />
+                <span>Marcel</span>
+                </div>
+                <div className="cont3">
+                <img src="./Assets/3.jpg" alt="" />
+                <span>John</span>
+                </div>
+                <div className="cont1">
+                <img src="./Assets/1.jpg" alt="" />
+                <span>Floris</span>
+                </div>
+                <div className="cont2">
+                <img src="./Assets/2.jpg" alt="" />
+                <span>Marcel</span>
+                </div>
+                <div className="cont3">
+                <img src="./Assets/3.jpg" alt="" />
+                <span>John</span>
+                </div>
+                <div className="cont1">
+                <img src="./Assets/1.jpg" alt="" />
+                <span>Floris</span>
+                </div>
+                <div className="cont2">
+                <img src="./Assets/2.jpg" alt="" />
+                <span>Marcel</span>
+                </div>
+                <div className="cont3">
+                <img src="./Assets/3.jpg" alt="" />
+                <span>John</span>
+                </div>
+            </div>
+
         </div>
     );
 };
