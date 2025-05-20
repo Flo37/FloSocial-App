@@ -1,5 +1,4 @@
 import React from 'react';
-
 const Leftbar = () => {
     return (
         <div className='leftBr'>

@@ -12,7 +12,7 @@
         color: white;
     }
     .search{
-        flex: 5;
+        flex: 3;
         background: white;
         border-radius: 20px;
         padding: 0.2rem;
@@ -29,10 +29,13 @@
         }
     }
     .chat{
-        flex: 4;
+        flex: 5;
         align-items: center;
         justify-content: space-evenly;
         display: flex;
+        background: #3333334d;
+        border-radius: 40px;
+        margin-left: 15px;
         .navBar{
             cursor: pointer;
             display: flex;
@@ -103,8 +106,9 @@
         .profile{
             cursor: pointer;
             img{
-                width: 40px;
-                height: 40px;
+                margin-top: 5px;
+                width: 25px;
+                height: 25px;
                 object-fit: cover;
                 border-radius: 100%;
             }
