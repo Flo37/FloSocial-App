@@ -6,7 +6,7 @@ const Bars = () => {
         
             <div className="header_bar">
                 <div className="logo">
-                    <h1>FloSocail <i class="fa-solid fa-people-arrows connect"></i></h1>
+                    <h1>FloSocail. <i class="fa-solid fa-people-arrows connect"></i></h1>
                 </div>
                 <div className="search">
                 <i class="fa-solid fa-magnifying-glass user_search"></i>

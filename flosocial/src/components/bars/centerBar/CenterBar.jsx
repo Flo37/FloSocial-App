@@ -1,4 +1,5 @@
 import React from 'react';
+import Post from './post/Post';
 
 const CenterBar = () => {
     return (
@@ -15,6 +16,7 @@ const CenterBar = () => {
             <button  className='share'>Share</button>
             </div>
             </div>
+            <Post/>
         </div>
     );
 };
