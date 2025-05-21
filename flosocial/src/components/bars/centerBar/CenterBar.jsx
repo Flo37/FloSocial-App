@@ -17,6 +17,8 @@ const CenterBar = () => {
             </div>
             </div>
             <Post/>
+            <Post/>
+            <Post/>
         </div>
     );
 };

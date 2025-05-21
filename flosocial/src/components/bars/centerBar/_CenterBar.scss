@@ -2,6 +2,8 @@
     flex: 8;
     background:white;
     padding: 1rem;
+    height: calc(100vh - 64px);
+    overflow-y: scroll;
     .container{
         box-shadow: 2px 1px 25px -8px rgba(0,0,0,1);
         -webkit-box-shadow: 2px 1px 25px -8px rgba(0,0,0,1);
@@ -16,8 +18,9 @@
        
         }
         input{
-            position: absolute;
-            margin: 0 5px;
+          position: relative;
+            top: -5px;
+            margin: -5px 5px;
             border: none;
             width: 50%;
             height: 30px;
