@@ -21,13 +21,19 @@ const Post = () => {
                  </div>
                  <div className="bottom">
                     <div className='like'>
-                        <span>👩‍❤️‍👩</span> 
+                        <span><i class="fa-regular fa-thumbs-up liked"></i></span> 
                         <p>10</p>
                     </div>
                     <div className='comment'><i class="fa-solid fa-message"></i>
                     <span>60</span></div>
 
                  </div>
+                    <hr />
+                    <div className="buttons">
+                        <button>Like</button>
+                        <button>Comment</button>
+                        <button>Share</button>
+                    </div>
             </div>
             
         </div>
